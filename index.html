@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+      }
+      ul,
+      ol {
+        list-style: none;
+      }
+      img {
+        display: block;
+      }
+      a {
+        text-decoration: none;
+        color: #333;
+      }
+      header {
+        width: 1600px;
+        overflow: hidden;
+        margin: 0 auto;
+        text-align: center;
+        padding: 40px 0px;
+      }
+      .logo {
+        font-size: 35px;
+        display: block;
+        line-height: 26px;
+        font-weight: 900;
+      }
+      header ul {
+        display: inline-block;
+        overflow: hidden;
+      }
+      header li {
+        float: left;
+        margin: 20px;
+        text-align: center;
+      }
+      header li img {
+        margin: 0 auto;
+      }
+
+      header li a {
+        font-weight: 600;
+        display: block;
+        padding-bottom: 5px;
+      }
+
+      header li:hover a {
+        border-bottom: 2px solid #f00;
+      }
+      #mainBg {
+        width: 1600px;
+        overflow: hidden;
+        margin: 0 auto;
+      }
+      #mainBg > .left {
+        float: left;
+        width: 1274px;
+      }
+      #mainBg > .right {
+        float: right;
+        width: 316px;
+      }
+      #mainBg .tbox {
+        border: solid #000 5px;
+        box-sizing: border-box;
+        height: 160px;
+        margin: 10px 0;
+        background-image: url(./images/box_bg.png);
+        padding: 15px 0;
+      }
+      #mainBg .tbox > .line {
+        width: 40px;
+        height: 2px;
+        background-color: #000;
+        margin: 0 auto;
+      }
+      #mainBg .tbox > p {
+        margin-top: 10px;
+      }
+      #mainBg .tbox h1 {
+        padding: 15px 0;
+      }
+      #mainBg2 {
+        width: 1600px;
+        overflow: hidden;
+        margin: 0 auto;
+      }
+      #mainBg2 .left {
+        width: 784px;
+        float: left;
+      }
+      #mainBg2 .right {
+        float: right;
+        width: 785px;
+      }
+      #mainBg2 .ibox {
+        width: 784px;
+        height: 481px;
+        background-color: #000;
+        margin-top: 30px;
+      }
+      footer {
+        width: 1600px;
+        margin-top: 30px;
+      }
+      footer img {
+        width: 790px;
+        height: 500px;
+      }
+      footer .left {
+        float: left;
+        width: 790px;
+        height: 850px;
+      }
+      footer .right {
+        float: right;
+        background-color: #000;
+        width: 800px;
+        height: 340px;
+      }
+      footer .signup {
+        width: 800px;
+        height: 150px;
+        background-color: burlywood;
+        text-align: center;
+        margin-top: 10px;
+        font-size: 18px;
+        font-weight: 800;
+      }
+      footer .center {
+        display: inline-block;
+        margin: 55px;
+      }
+      footer label {
+        display: block;
+        float: left;
+        font-size: 18px;
+        line-height: 40px;
+      }
+      footer input {
+        margin-left: 15px;
+        height: 40px;
+        width: 250px;
+        text-align: center;
+        display: block;
+        float: left;
+        font-size: 18px;
+        border: none;
+      }
+      footer button {
+        width: 20px;
+        height: 40px;
+        margin-left: 0;
+        display: block;
+        float: left;
+        height: 40px;
+        background-color: #000;
+        color: #fff;
+        font-size: 14px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <a href="#" class="logo">Alfredo<br />gonzales</a>
+      <ul>
+        <li>
+          <a href="#"><img src="./images/menu01.png" alt="" /></a>home
+        </li>
+        <li>
+          <a href="#"><img src="./images/menu02.png" alt="" /></a>shop
+        </li>
+        <li>
+          <a href="#"><img src="./images/menu03.png" alt="" /></a>custombox
+        </li>
+        <li>
+          <a href="#"><img src="./images/menu04.png" alt="" /></a>blog
+        </li>
+        <li>
+          <a href="#"><img src="./images/menu05.png" alt="" /></a>story
+        </li>
+      </ul>
+
+      <section id="mainBg">
+        <div class="left">
+          <img src="./images/header01.jpg" alt="" />
+        </div>
+        <div class="right">
+          <img src="./images/side01.jpg" alt="" />
+          <div class="tbox">
+            <p>DESIGN YOUR OWNSOCK</p>
+            <h1>THE WORKSHOP</h1>
+            <div class="line"></div>
+          </div>
+          <div class="tbox">
+            <p>SELF SERVICE</p>
+            <h1>ONLINE STORE</h1>
+            <div class="line"></div>
+          </div>
+        </div>
+      </section>
+
+      <section id="mainBg2">
+        <div class="left">
+          <img src="./images/banner_01.jpg" alt="" />
+          <div class="ibox">
+            <iframe
+              src="https://player.vimeo.com/video/104136276"
+              width="784"
+              height="480"
+              frameborder="0"
+              webkitallowfullscreen
+              mozallowfullscreen
+              allowfullscreen
+            ></iframe>
+          </div>
+        </div>
+        <div class="right">
+          <img src="./images/banner_02.jpg" alt="" />
+        </div>
+      </section>
+
+      <section id="mainBg3">
+        <img src="./images/banner_03.jpg" alt="" />
+        <img src="./images/banner_04.jpg" alt="" />
+        <img src="./images/banner_05.jpg" alt="" />
+      </section>
+
+      <footer>
+        <div class="left">
+          <img src="./images/banner_bg.jpg" alt="" />
+        </div>
+        <div class="right">
+          <iframe
+            src="https://player.vimeo.com/video/58451361"
+            width="800"
+            height="340"
+            frameborder="0"
+            webkitallowfullscreen
+            mozallowfullscreen
+            allowfullscreen
+          ></iframe>
+          <div class="signup">
+            <div class="center">
+              <label for="">SIGN UP</label>
+              <input type="email" placeholder="YOUR EMAIL ADDRESS" />
+              <button>&#62;</button>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </header>
+  </body>
+</html>
